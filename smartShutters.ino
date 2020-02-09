@@ -1,5 +1,7 @@
 /*********
-  Author: Patrick Bollmann
+author = "Patrick Bollmann"
+email = "pbollman@mail.upb.de"
+date = "09.02.2020"
 *********/
 
 // Load Wi-Fi library
