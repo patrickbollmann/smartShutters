@@ -126,16 +126,16 @@ void loop(){
             client.println(".button3 {background-color: #FF6A6A;}</style></head>");
             
             // Web Page Heading
-            client.println("<body><h1>Smart Rollladen</h1>");
+            client.println("<body><h1>Smart Shutters</h1>");
             
             // Display current state, up down button depending on state     
             if (currentState=="up") {
-              client.println("<p><a href=\"/godown\"><button class=\"button\">Herunterfahren</button></a></p>");
+              client.println("<p><a href=\"/godown\"><button class=\"button\">Down</button></a></p>");
             } else {
-              client.println("<p><a href=\"/goup\"><button class=\"button button2\">Hochfahren</button></a></p>");
+              client.println("<p><a href=\"/goup\"><button class=\"button button2\">Up</button></a></p>");
             }
             // Display the stop button
-            client.println("<p><a href=\"/stop\"><button class=\"button button3\">Stopp</button></a></p>");
+            client.println("<p><a href=\"/stop\"><button class=\"button button3\">Stop</button></a></p>");
                
             client.println("</body></html>");
             
